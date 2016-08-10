@@ -4,8 +4,15 @@
 	content: '';
 	clear: both;
 }
+.decklist{
+	font-size: .85em;
+}
+	.decklist td:nth-child(2n+2){
+		text-align: center;
+	}
 .editor-tools{
 	text-align: right;
 	margin-top: 15px;
 }
+
 
