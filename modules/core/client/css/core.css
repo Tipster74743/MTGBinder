@@ -1,5 +1,24 @@
+/*************** Element Styles*******/
+body{
+	background-color: lightgray;
+}
+ul{
+	list-style-type: none;
+	padding-left: 0;
+}
+
+/*************** Helper Classes*******/
 .content {
   margin-top: 50px;
+}
+.error-text {
+	display: none;
+}
+.has-error .help-block.error-text {
+	display: block;
+}
+.has-error .help-inline.error-text {
+	display: inline;
 }
 .undecorated-link:hover {
   text-decoration: none;
@@ -11,6 +30,8 @@
 .x-ng-cloak {
   display: none !important;
 }
+
+/*******************Class Styles*******/
 .header-profile-image {
   opacity: 0.8;
   height: 28px;
@@ -32,12 +53,4 @@ a:hover .header-profile-image {
   right: 10px;
   position: absolute;
 }
-.error-text {
-  display: none;
-}
-.has-error .help-block.error-text {
-  display: block;
-}
-.has-error .help-inline.error-text {
-  display: inline;
-}
+

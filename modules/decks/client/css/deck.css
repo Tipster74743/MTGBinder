@@ -1,0 +1,11 @@
+/************************** Class Styles *****/
+
+.card-search{
+	content: '';
+	clear: both;
+}
+.editor-tools{
+	text-align: right;
+	margin-top: 15px;
+}
+

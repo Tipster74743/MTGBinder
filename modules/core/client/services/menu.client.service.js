@@ -1,9 +1,7 @@
 (function () {
   'use strict';
 
-  angular
-    .module('core')
-    .factory('menuService', menuService);
+  angular.module('core').factory('menuService', menuService);
 
   function menuService() {
     var shouldRender;
